@@ -1,6 +1,6 @@
 const getCurrentDate = () => {
   const date = new Date();
-  return date.toLocaleDateString("pt-br");
+  return date.toISOString().split("T")[0];
 };
 
 module.exports = {
