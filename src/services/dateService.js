@@ -1,6 +1,6 @@
 const getCurrentDate = () => {
   const date = new Date();
-  return "11/05/2023";
+  return "10/05/2023";
 };
 
 module.exports = {
