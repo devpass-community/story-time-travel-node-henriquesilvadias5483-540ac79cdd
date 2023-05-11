@@ -1,7 +1,8 @@
 const getCurrentDate = () => {
-    // Add your solution here!
+  const date = new Date();
+  return date.toLocaleDateString("pt-br");
 };
 
 module.exports = {
-    getCurrentDate
-}
+  getCurrentDate,
+};
